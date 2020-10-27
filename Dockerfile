@@ -25,7 +25,7 @@ RUN apk add --no-cache --virtual \
 
 COPY requirements.txt .
 
-COPY input.pdf .
+COPY input2.pdf .
 
 RUN pip3 install -r requirements.txt
 
