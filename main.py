@@ -4,8 +4,8 @@
 from gtts import gTTS
 import os 
 
-# Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
-# filelocation = askopenfilename() # open the dialog GUI
+# Tk().withdraw() 
+# filelocation = askopenfilename() 
 # print(filelocation)
 
 fileDir = os.path.dirname(os.path.realpath('__file__'))
